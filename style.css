@@ -1,0 +1,105 @@
+html {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: #E0C097;
+    /* height: 100%;
+    background-image: url(http://www.horizonchampion.eu/themes/projectbase/images/bg.svg);
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: cover; */
+}
+ /* <BOARDS> */
+
+.playBoard {
+    display: none;
+}
+.tryagainBoard {
+    display: none;
+}
+
+
+
+
+
+ /* </BOARDS> */
+ .start-img {
+     width: 200px;
+     height: 200px;
+     margin: 0 auto;
+ }
+.title ,.finish{
+    color: #753422;
+    font-size: 50px;
+    font-weight:400;
+}
+.play {
+    color :#E0C097;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #753422;
+    font: bolder;
+    font-size: 15px;
+    border: none;
+    width: 100px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    margin:50px auto auto auto;
+    display: block;
+}
+.play:active{
+    opacity: 0.8;
+}
+.content{
+    margin-top: 50px;
+}
+.final-score{
+    font-size: 80px;
+    color: #753422;
+    font-weight: 400;
+}
+h2{
+    color: #5C3D2E;
+    padding: 5px;
+    border-radius: 3px;
+    width: 200px;
+    margin: 3px auto;
+}
+.fa-redo-alt{
+    color: #3d3633;
+    background-color: #dfaf71;
+    padding: 10px;
+    border-radius: 50%;
+    transform: scale(1.5);
+}
+.grid {
+    width: 606px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px auto;
+    justify-content: center;
+}
+.square {
+    width: 150px;
+    height: 150px;
+    border-bottom: 3px solid brown;
+    margin: 5px;
+}
+.mole {
+    /* background-color: #B85C38; */
+    background-image: url("assets/mole.svg");
+    image-rendering: 100px;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+@media (max-width :620px) {
+    .grid{
+        width: 98%;
+        
+    }
+    .square{
+        width: 100px;
+        height: 100px;
+    }
+}

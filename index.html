@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/80ffa8a434.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+    <title>whack-a-mole</title>
+</head>
+<body>
+    <!-- playBoard -->
+    <div class="playBoard">
+        <h2>Score:
+            <span class="score"></span>
+        </h2>
+        <h2>Time left:
+            <span class="time-left">10</span>
+        </h2>
+    
+        <div class="grid">
+            <div class="square" id="1"></div>
+            <div class="square" id="2"></div>
+            <div class="square" id="3"></div>
+            <div class="square" id="4"></div>
+            <div class="square" id="5"></div>
+            <div class="square" id="6"></div>
+            <div class="square" id="7"></div>
+            <div class="square" id="8"></div>
+            <div class="square" id="9"></div>
+        </div>
+    </div>
+
+    <!-- startBoard -->
+    <div class="startBoard">   
+        <h1 class="title">WHACK-A-MOLE</h1>
+        <img src="assets/whack-a-mole.svg" alt="" class="start-img">
+
+        <p  class="content"> smash the mole to get the score</p>
+
+        <button class="play">PLAY</button>
+
+        <p> &copy; whack-a-mole</p>
+
+    </div>
+    <!-- tryAginBoard -->
+    <div class="tryagainBoard">
+        <h1 class="finish">THE GAME IS END</h1>
+        <!-- <img src="assets/mole.svg" alt="" class="start-img"> -->
+        <h2>Your score is :<h1 class="final-score"></h1></h2>
+
+        <i class="fas fa-redo-alt try-again"></i>
+        <h3 style="color : #B85C38">TRY AGAIN</h3>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

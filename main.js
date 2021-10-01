@@ -64,8 +64,8 @@ playBtn.addEventListener('click', () => {
 
 tryAgain.addEventListener('click',() => {
     tryagainBoard.style.display = 'none'
-    startBoard.style.display = 'block'
-    playBoard.style.display = 'none'
+    startBoard.style.display = 'none'
+    playBoard.style.display = 'block'
     timeLeft = 10
     result = 0
     moveMole()
